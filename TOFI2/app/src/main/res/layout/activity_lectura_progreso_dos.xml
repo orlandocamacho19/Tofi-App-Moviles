@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lectura_progreso_dos"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@color/morado"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-350dp"
+            android:background="@drawable/roundedcornersicono"
+            android:backgroundTint="@color/morado"
+            android:src="@drawable/regresar"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="435dp"
+        android:layout_height="670dp"
+        android:layout_marginLeft="-430dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/aventurarecorte">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/roundedcornersclick"
+            android:text="                                                                  Después de tantas horas de camino, los dos viajeros por fin encontraron su destino"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/roundedcornersclick"
+        android:backgroundTint="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Agregar a biblioteca?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito_semibold"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp">
+
+            <ImageButton
+                android:id="@+id/btnRechazar"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedcornerbottomleft"
+                android:backgroundTint="#FF616D"
+                android:src="@drawable/rechazarcirculo"/>
+
+            <ImageButton
+                android:id="@+id/btnAceptar"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedcornerbottomright"
+                android:backgroundTint="#83CEB3"
+                android:src="@drawable/aceptarcirculo"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

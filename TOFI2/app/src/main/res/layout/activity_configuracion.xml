@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradadolineal"
+    android:orientation="horizontal"
+    tools:context=".configuracion">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/degradadolineal"
+        android:elevation="10dp">
+
+        <ImageButton
+            android:id="@+id/btnAtrasConfig"
+            android:layout_width="20dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="-180dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/regresarmorado" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-170dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Configuración"
+            android:textColor="@color/moradoOsbcuro"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btnEditarPerfil"
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="-360dp"
+        android:text="Editar perfil"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textAllCaps="false"
+        android:elevation="20dp"
+        android:background="@drawable/style_botone_degradadoblanco"
+        />
+
+    <Button
+        android:id="@+id/btnCambiarPerfil"
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="-310dp"
+        android:text="Cambiar Perfil"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/style_botone_degradadoblanco"
+        />
+
+    <Button
+        android:id="@+id/btnAyuda"
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="-310dp"
+        android:text="Ayuda"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/style_botone_degradadoblanco"
+        />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="-310dp"
+        android:text="Cerrar Sesion"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/style_borde_registro"/>
+
+</LinearLayout>

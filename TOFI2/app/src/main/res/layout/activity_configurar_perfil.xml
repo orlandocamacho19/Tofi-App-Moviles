@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".configurar_perfil"
+    android:background="@drawable/degradadomoradoradial">
+
+    <ImageButton
+        android:id="@+id/btnAtrasConfigPerfil"
+        android:layout_width="20dp"
+        android:layout_height="28dp"
+        android:background="@drawable/regresar"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:text="Configura tu perfil"
+        android:textSize="25sp"
+        android:textColor="@color/moradoClaro"
+        android:layout_marginTop="79dp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        android:background="@drawable/degradadolineal"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="-273dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="-300dp"
+        android:background="@drawable/monito"
+        />
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="-260dp"
+        android:background="@drawable/regresarmorado"
+        />
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/adelantemorado"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="470dp"
+        android:hint="  Nombre"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_marginLeft="-310dp"
+        android:background="@drawable/style_borde_registro"/>
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="-300dp"
+        android:text="Edad"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="20dp"
+        android:textColorHint="@color/moradoClaro"/>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/style_botone_degradadoblanco"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="60dp"/>
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/mas"/>
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="-155dp"
+        android:background="@drawable/menos"/>
+
+    <EditText
+        android:layout_width="38dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="35dp"
+        android:text="12"
+        android:textSize="25dp"
+        android:textColor="@color/moradoOsbcuro"
+        android:fontFamily="@font/nunito_extrabold"
+        />
+
+    <Button
+        android:id="@+id/btnSigConfigPerfil"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="-160dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Siguiente"
+        android:textAlignment="center"
+        android:fontFamily="@font/nunito_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/style_boton_degradadomorado"/>
+
+</LinearLayout>

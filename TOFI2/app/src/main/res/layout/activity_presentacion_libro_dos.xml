@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradadolineal"
+    android:orientation="horizontal"
+    tools:context=".presentacion_libro_dos">
+
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="280dp"
+        android:src="@drawable/librodos" />
+
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="28dp"
+        android:background="@drawable/regresar"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="-260dp">
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/roundedcornersicono"
+            android:backgroundTint="@color/verdePastel"
+            android:cropToPadding="true"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="30dp">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/roundedcornersicono"
+            android:backgroundTint="@color/amarilloRelleno"
+            android:cropToPadding="true"
+            android:src="@drawable/favorito" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="-360dp"
+        android:text="El sueño de Teresa"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="33sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="-300dp"
+        android:text="Pronunciación"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="-300dp"
+        android:text="10 escenarios"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="Comida"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="-300dp"
+        android:background="@drawable/roundedcornersclick"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="Cocina"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/roundedcornersclick"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="Amistad"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/roundedcornersclick"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="Metas"
+        android:layout_marginTop="505dp"
+        android:layout_marginLeft="-340dp"
+        android:background="@drawable/roundedcornersclick"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="Equipo"
+        android:layout_marginTop="505dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/roundedcornersclick"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:text="Ficción"
+        android:layout_marginTop="505dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/roundedcornersclick"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:text="¿Cuánto sabes de cocina? ¿Alguna vez te has preguntado de que esta hecho tu pastel favorito? Ayuda a Teresa a preparar suficientes pasteles y postres para su reunión familiar el próximo saábado."
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="-350dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradadolineal"
+    tools:context=".lectura_terminada">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/regresarmorado"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="65dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="¡Felicidades!"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/moradoOsbcuro"/>
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="-200dp"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:text="Terminaste la lectura"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/moradoOsbcuro"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="-230dp"
+        android:background="@drawable/celebrar"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="-225dp"
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:text="¿Listo para practicar lo que aprendiste?"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/moradoOsbcuro"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="-210dp"
+        android:text="Estoy listo"
+        android:textSize="18sp"
+        android:background="@drawable/bordeverde"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="-210dp"
+        android:text="Ahora no"
+        android:textSize="18sp"
+        android:background="@color/azulGrisaceo"
+        android:textAlignment="center"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

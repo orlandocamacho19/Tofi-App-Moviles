@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradadomoradoradial"
+    tools:context=".contra">
+
+    <ImageButton
+        android:id="@+id/btnAtrasRegistro"
+        android:layout_width="20dp"
+        android:layout_height="28dp"
+        android:background="@drawable/regresar"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:text="¡Hola, Hannah23!"
+        android:textSize="25sp"
+        android:textColor="@color/moradoClaro"
+        android:layout_marginTop="79dp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <EditText
+        android:id="@+id/etUsuarioRegistro"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:hint="Contraseña"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-210dp"
+        android:background="@drawable/style_borde_registro"
+        />
+
+    <EditText
+        android:id="@+id/etCorreoRegistro"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:hint="Repetir contraseña"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="-280dp"
+        android:background="@drawable/style_borde_registro"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="-280dp"
+        android:text="Restablecer"
+        android:background="@drawable/style_boton_degradadomorado"
+        android:textAlignment="center"
+        android:textAllCaps="false"/>
+</LinearLayout>
