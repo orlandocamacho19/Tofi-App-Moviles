@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/morado"
+    tools:context=".iniciar_sesion">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="76dp"
+        android:background="@drawable/logotipo"/>
+
+    <EditText
+        android:id="@+id/etUsuarioRegistro"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:hint="Usuario"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="-240dp"
+        android:background="@drawable/style_borde_registro"
+        />
+
+
+    <EditText
+        android:id="@+id/etContraseniaRegistro"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:hint="Contraseña"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="-280dp"
+        android:background="@drawable/style_borde_registro"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:id="@+id/btnOlvidarPassword"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-170dp"
+        android:layout_marginTop="425dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/nunito_bold"
+        android:text="¿Olvidaste la contraseña?"
+        android:textSize="13sp"
+        android:textColor="@color/amarillo"/>
+
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="450dp" />
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-140dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/nunito_regular"
+        android:text="Recordar Usuario"
+        android:textSize="14sp"
+        android:textColor="@color/moradoClaro"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="-267dp"
+        android:text="Iniciar sesión"
+        android:textSize="18sp"
+        android:background="@drawable/bordeverde"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="-280dp"
+        android:text="Registrarse"
+        android:textSize="18sp"
+        android:background="@drawable/bordemorado"
+        android:textAlignment="center"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
