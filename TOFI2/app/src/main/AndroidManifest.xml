@@ -10,12 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity
-            android:name=".bliblioteca_dos"
-            android:exported="false" />
-        <activity
-            android:name=".catalogo2"
-            android:exported="false" />
+
         <activity
             android:name=".lectura_terminada"
             android:exported="false" />
@@ -75,7 +70,7 @@
             android:exported="false" />
         <activity
             android:name=".registro"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".recuperar_contra"
             android:exported="false" />
@@ -84,16 +79,8 @@
             android:exported="false" />
         <activity
             android:name=".iniciar_sesion"
-            android:exported="false" />
-        <activity
-            android:name=".lecturaprogresodos"
-            android:exported="false" />
-        <activity
-            android:name=".actividadesdehistorias"
-            android:exported="false" />
-        <activity
-            android:name=".iniciarsesion"
-            android:exported="false" />
+            android:exported="true" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

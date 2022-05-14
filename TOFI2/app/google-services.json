@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019651040688",
+    "project_id": "tofi-bfe13",
+    "storage_bucket": "tofi-bfe13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019651040688:android:3e3b03db5baf54d34d2275",
+        "android_client_info": {
+          "package_name": "orlando.camacho.tofi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019651040688-pr74k77mg7ud69guetspu9lp60atoe04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlO0iBxSMhhNI_NufeUYsMGet1vbUp2x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019651040688-pr74k77mg7ud69guetspu9lp60atoe04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

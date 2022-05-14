@@ -40,30 +40,17 @@
         android:background="@drawable/monito"
         />
 
-    <ImageButton
-        android:layout_width="15dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="310dp"
-        android:layout_marginLeft="-260dp"
-        android:background="@drawable/regresarmorado"
-        />
 
-    <ImageButton
-        android:layout_width="15dp"
-        android:layout_height="20dp"
-        android:layout_marginLeft="290dp"
-        android:layout_marginTop="310dp"
-        android:background="@drawable/adelantemorado"
-        />
 
     <EditText
+        android:id="@+id/NombrePerfil"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="470dp"
-        android:hint="  Nombre"
+        android:hint="Nombre"
         android:textColorHint="@color/black"
         android:fontFamily="@font/nunito_regular"
-        android:layout_marginLeft="-310dp"
+        android:layout_marginLeft="-255dp"
         android:background="@drawable/style_borde_registro"/>
 
     <TextView
@@ -84,6 +71,7 @@
         android:layout_marginLeft="60dp"/>
 
     <ImageButton
+        android:id="@+id/btMasEdad"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginTop="600dp"
@@ -91,20 +79,23 @@
         android:background="@drawable/mas"/>
 
     <ImageButton
+        android:id="@+id/btMenosEdad"
         android:layout_width="25dp"
         android:layout_height="5dp"
         android:layout_marginTop="610dp"
         android:layout_marginLeft="-155dp"
         android:background="@drawable/menos"/>
 
-    <EditText
-        android:layout_width="38dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="590dp"
-        android:layout_marginLeft="35dp"
-        android:text="12"
+    <TextView
+        android:id="@+id/EdadChamaco"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="582dp"
+        android:layout_marginLeft="23dp"
+        android:text="7"
         android:textSize="25dp"
         android:textColor="@color/moradoOsbcuro"
+        android:textAlignment="center"
         android:fontFamily="@font/nunito_extrabold"
         />
 
