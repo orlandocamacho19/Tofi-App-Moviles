@@ -64,6 +64,7 @@ class iniciar_sesion : AppCompatActivity() {
 
     private fun reload(){
         val intent = Intent(this, seleccion_perfiles::class.java)
+        intent.putExtra("mail", binding.etUsuarioRegistro.text.toString().replace(".",""))
         this.startActivity(intent)
     }
 }
