@@ -34,11 +34,12 @@
         android:layout_height="500dp">
 
         <ImageButton
+            android:id="@+id/btnPastelito"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:background="@drawable/gato"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gato" />
 
         <ImageButton
             android:id="@+id/btnClick"
@@ -59,18 +60,20 @@
         android:layout_marginLeft="210dp">
 
         <ImageButton
+            android:id="@+id/btnMuseo"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:background="@drawable/museo"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="50dp"
+            android:background="@drawable/museo" />
 
         <ImageButton
+            android:id="@+id/btnMochila"
             android:layout_width="150dp"
             android:layout_height="200dp"
-            android:background="@drawable/mochila"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="290dp"/>
+            android:layout_marginTop="290dp"
+            android:background="@drawable/mochila" />
     </RelativeLayout>
 
     <RelativeLayout

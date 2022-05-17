@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/cosas uwu/Tofi-App-Moviles/TOFI2/app/src/main/res/layout/activity_biblioteca.xml" value="0.358695652173913" />
+        <entry key="..\:/cosas uwu/Tofi-App-Moviles/TOFI2/app/src/main/res/layout/activity_catalogo.xml" value="0.358695652173913" />
+        <entry key="..\:/cosas uwu/Tofi-App-Moviles/TOFI2/app/src/main/res/layout/activity_presentacion_libro.xml" value="0.2226148409893993" />
+        <entry key="..\:/cosas uwu/Tofi-App-Moviles/TOFI2/app/src/main/res/layout/activity_presentacion_libro_dos.xml" value="0.358695652173913" />
         <entry key="app/src/main/res/drawable/bordemorado.xml" value="0.281" />
         <entry key="app/src/main/res/drawable/bordeverde.xml" value="0.281" />
         <entry key="app/src/main/res/layout/activity_actividades_de_historias.xml" value="0.27219202898550726" />
