@@ -9,19 +9,19 @@
         <entry key="..\:/cosas uwu/Tofi-App-Moviles/TOFI2/app/src/main/res/layout/activity_presentacion_libro_dos.xml" value="0.358695652173913" />
         <entry key="app/src/main/res/drawable/bordemorado.xml" value="0.281" />
         <entry key="app/src/main/res/drawable/bordeverde.xml" value="0.281" />
-        <entry key="app/src/main/res/layout/activity_actividades_de_historias.xml" value="0.27219202898550726" />
+        <entry key="app/src/main/res/layout/activity_actividades_de_historias.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_actividadesdehistorias.xml" value="0.254981884057971" />
-        <entry key="app/src/main/res/layout/activity_biblioteca.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_biblioteca.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_bienvenida.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_bliblioteca_dos.xml" value="0.27219202898550726" />
         <entry key="app/src/main/res/layout/activity_buscar.xml" value="0.4036458333333333" />
-        <entry key="app/src/main/res/layout/activity_catalogo.xml" value="0.27219202898550726" />
+        <entry key="app/src/main/res/layout/activity_catalogo.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_catalogo2.xml" value="0.27219202898550726" />
-        <entry key="app/src/main/res/layout/activity_catalogo_fantasia.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_catalogo_fantasia.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_configuracion.xml" value="0.4036458333333333" />
-        <entry key="app/src/main/res/layout/activity_configurar_perfil.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_configurar_perfil.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_contra.xml" value="0.4036458333333333" />
-        <entry key="app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_iniciarsesion.xml" value="0.3591485507246377" />
         <entry key="app/src/main/res/layout/activity_lectura_progreso.xml" value="0.27219202898550726" />
         <entry key="app/src/main/res/layout/activity_lectura_progreso_dos.xml" value="0.27219202898550726" />
@@ -29,15 +29,15 @@
         <entry key="app/src/main/res/layout/activity_lecturaprogresodos.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_libro_repaso.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3591485507246377" />
-        <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_preguntas_frecuentes.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_presentacion_libro.xml" value="0.27219202898550726" />
         <entry key="app/src/main/res/layout/activity_presentacion_libro_dos.xml" value="0.27219202898550726" />
         <entry key="app/src/main/res/layout/activity_pronunciacion.xml" value="0.27219202898550726" />
         <entry key="app/src/main/res/layout/activity_recuperar_contra.xml" value="0.4036458333333333" />
         <entry key="app/src/main/res/layout/activity_regalo.xml" value="0.27219202898550726" />
-        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.19630192502532928" />
-        <entry key="app/src/main/res/layout/activity_seleccion_perfiles.xml" value="0.19630192502532928" />
+        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_seleccion_perfiles.xml" value="0.22" />
       </map>
     </option>
   </component>

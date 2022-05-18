@@ -5,10 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.firestore.FirebaseFirestore
 
 class configurar_perfil : AppCompatActivity() {
 
-    private val userRef = FirebaseDatabase.getInstance().getReference("Usuarios")
+    private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,14 +40,11 @@ class configurar_perfil : AppCompatActivity() {
 
         btSiguiente.setOnClickListener {
             if (!etNombrePerfil.text.isEmpty()) {
-                var perfil = UsuarioPerfil(etNombrePerfil.text.toString(), tvEdad.text.toString())
-                userRef.child(mail.toString().replace(".", "")).get().addOnSuccessListener {
-                    if (it.exists()) {
 
-                    } else {
-                        userRef.child(mail.toString().replace(".", "")).child(perfil.nombre.toString())
-                    }
-                }
+                val perfil = UsuarioPerfil(etNombrePerfil.text.toString(), tvEdad.text.toString(), intent.getStringExtra("mail"))
+
+                db.collection("Perfiles").add(perfil)
+
                 var intent: Intent = Intent(this, bienvenida::class.java)
                 intent.putExtra("mail", mail)
                 startActivity(intent)

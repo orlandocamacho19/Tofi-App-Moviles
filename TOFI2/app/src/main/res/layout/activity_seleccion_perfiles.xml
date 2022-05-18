@@ -30,9 +30,10 @@
         android:layout_height="165dp"
         android:layout_marginTop="200dp"
         android:layout_marginLeft="-375dp"
-        android:background="@drawable/primer_perfil"/>
+        android:background="@drawable/segundo_perfil"/>
 
     <TextView
+        android:id="@+id/nombrePrimerPerfil"
         android:layout_width="165dp"
         android:layout_height="35dp"
         android:layout_marginTop="365dp"
@@ -49,10 +50,10 @@
         android:layout_height="165dp"
         android:layout_marginTop="400dp"
         android:layout_marginLeft="-165dp"
-        android:background="@drawable/tercer_perfil"/>
+        android:background="@drawable/segundo_perfil"/>
 
     <TextView
-
+        android:id="@+id/NombreSegundoPerfil"
         android:layout_width="165dp"
         android:layout_height="35dp"
         android:layout_marginTop="365dp"
@@ -68,10 +69,10 @@
         android:id="@+id/ivPerfil2"
         android:layout_width="165dp"
         android:layout_height="165dp"
-        android:layout_marginTop="200dp"
         android:layout_marginLeft="-165dp"
-        android:textSize="20dp"
-        android:background="@drawable/segundo_perfil"/>
+        android:layout_marginTop="200dp"
+        android:background="@drawable/segundo_perfil"
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="165dp"
@@ -105,9 +106,8 @@
 
     </RelativeLayout>
 
-
-
     <TextView
+        android:id="@+id/nombreTercerPerfil"
         android:layout_width="165dp"
         android:layout_height="35dp"
         android:layout_marginTop="565dp"

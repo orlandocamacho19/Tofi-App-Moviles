@@ -13,6 +13,9 @@ class actividades_de_historias : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_actividades_de_historias)
 
+        val perfilUsuario: String? = intent.getStringExtra("perfil")
+        val mail: String? = intent.getStringExtra("mail").toString()
+
         val botonInicioP: ImageButton = findViewById(R.id.btnIniciP)
         val botonBuscarP: ImageButton = findViewById(R.id.btnBuscarP)
         val botonBilioP: ImageButton = findViewById(R.id.btnBiblioP)
@@ -25,34 +28,50 @@ class actividades_de_historias : AppCompatActivity() {
 
         botonInicioP.setOnClickListener {
             var intent: Intent = Intent (this, catalogo::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonBuscarP.setOnClickListener {
             var intent: Intent = Intent (this, buscar::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonBilioP.setOnClickListener {
             var intent: Intent = Intent (this, biblioteca::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonActiP.setOnClickListener {
             var intent: Intent = Intent (this, actividades_de_historias::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonPerfil.setOnClickListener {
             var intent: Intent = Intent (this, perfil::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonPronunUno.setOnClickListener {
             var intent: Intent = Intent (this, pronunciacion::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonPronunDos.setOnClickListener {
             var intent: Intent = Intent (this, pronunciacion::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonPronunTres.setOnClickListener {
             var intent: Intent = Intent (this, pronunciacion::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
     }

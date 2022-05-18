@@ -56,7 +56,6 @@ class iniciar_sesion : AppCompatActivity() {
                 reload()
             } else {
                 Log.w(TAG, "signInWithEmail:failure", task.exception)
-                Toast.makeText(baseContext, "Authentication failed.", Toast.LENGTH_SHORT).show()
                 reload()
             }
         }
@@ -64,7 +63,7 @@ class iniciar_sesion : AppCompatActivity() {
 
     private fun reload(){
         val intent = Intent(this, seleccion_perfiles::class.java)
-        intent.putExtra("mail", binding.etUsuarioRegistro.text.toString().replace(".",""))
+        intent.putExtra("mail", binding.etUsuarioRegistro.text.toString())
         this.startActivity(intent)
     }
 }

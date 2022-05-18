@@ -79,9 +79,10 @@
     <RelativeLayout
         android:layout_width="410dp"
         android:layout_height="75dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="110dp"
         android:layout_gravity="center"
-        android:background="@color/white">
+        android:background="@color/white"
+        >
 
         <ImageButton
             android:id="@+id/btnInicio"
@@ -153,9 +154,9 @@
             android:id="@+id/btnPerfil"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/perfil"
+            android:layout_marginLeft="348dp"
             android:layout_marginTop="6dp"
-            android:layout_marginLeft="350dp"/>
+            android:background="@drawable/perfil" />
         <TextView
             android:layout_width="35dp"
             android:layout_height="20dp"

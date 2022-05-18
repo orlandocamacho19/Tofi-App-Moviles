@@ -17,13 +17,13 @@
 
     <TextView
         android:layout_width="230dp"
-        android:layout_height="35dp"
-        android:text="¡Hola, Hannah23!"
-        android:textSize="25sp"
-        android:textColor="@color/moradoClaro"
-        android:layout_marginTop="79dp"
+        android:layout_height="71dp"
         android:layout_marginLeft="3dp"
-        android:fontFamily="@font/nunito_extrabold"/>
+        android:layout_marginTop="79dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Restablecer cotraseña"
+        android:textColor="@color/moradoClaro"
+        android:textSize="25sp" />
 
     <EditText
         android:id="@+id/etUsuarioRegistro"

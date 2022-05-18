@@ -14,6 +14,7 @@ import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 import orlando.camacho.tofi.databinding.ActivityRegistroBinding
 import java.util.regex.Pattern
@@ -22,7 +23,7 @@ class registro : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var binding: ActivityRegistroBinding
-    private val userRef = FirebaseDatabase.getInstance().getReference("Usuarios")
+    private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,7 +49,7 @@ class registro : AppCompatActivity() {
             } else if (mPassword != mRepeatPassword){
                 Toast.makeText(this, "Confirma la contraseña.",Toast.LENGTH_SHORT).show()
             } else {
-                saveMarkFromForm()
+                saveOnFirestore()
                 createAccount(mEmail, mPassword)
             }
         }
@@ -73,11 +74,11 @@ class registro : AppCompatActivity() {
 
     private fun reload(){
         val intent = Intent(this, configurar_perfil::class.java)
-        intent.putExtra("mail", binding.etCorreoRegistro.text.toString().replace(".",""))
+        intent.putExtra("mail", binding.etCorreoRegistro.text.toString())
         this.startActivity(intent)
     }
 
-    private fun saveMarkFromForm() {
+    private fun saveOnFirestore() {
         var name: EditText = binding.etUsuarioRegistro
         var mail: EditText = binding.etCorreoRegistro
 
@@ -86,12 +87,6 @@ class registro : AppCompatActivity() {
             mail.text.toString(),
         )
 
-        userRef.child(mail.text.toString().replace(".","")).get().addOnSuccessListener {
-            if (it.exists()){
-
-            } else {
-                userRef.child(mail.text.toString().replace(".","")).setValue(usuario)
-            }
-        }
+        db.collection("Usuarios").document(mail.text.toString()).set(usuario)
     }
 }

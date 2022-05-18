@@ -161,7 +161,7 @@
     <RelativeLayout
         android:layout_width="410dp"
         android:layout_height="75dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="123dp"
         android:layout_gravity="center"
         android:background="@color/white">
 

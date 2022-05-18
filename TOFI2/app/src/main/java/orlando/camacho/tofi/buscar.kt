@@ -13,6 +13,9 @@ class buscar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_buscar)
 
+        val perfilUsuario: String? = intent.getStringExtra("perfil")
+        val mail: String? = intent.getStringExtra("mail").toString()
+
         val botonFantaUno: ShapeableImageView = findViewById(R.id.btnFantasia)
         val botonFantaDos: RelativeLayout = findViewById(R.id.btnFantasiaDos)
         val botonFantaTres: TextView = findViewById(R.id.btnFantasiaTres)
@@ -24,38 +27,54 @@ class buscar : AppCompatActivity() {
 
         botonFantaUno.setOnClickListener {
             var intent: Intent = Intent (this, catalogo_fantasia::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
 
         botonFantaDos.setOnClickListener {
             var intent: Intent = Intent (this, catalogo_fantasia::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
 
         botonFantaTres.setOnClickListener {
             var intent: Intent = Intent (this, catalogo_fantasia::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
 
         botonInicioC.setOnClickListener {
             var intent: Intent = Intent (this, catalogo::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
 
         botonBuscarC.setOnClickListener {
             var intent: Intent = Intent (this, buscar::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonBiblioC.setOnClickListener {
             var intent: Intent = Intent (this, biblioteca::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonActiC.setOnClickListener {
             var intent: Intent = Intent (this, actividades_de_historias::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
         botonPerfilC.setOnClickListener {
             var intent: Intent = Intent (this, perfil::class.java)
+            intent.putExtra("perfil", perfilUsuario)
+            intent.putExtra("mail", mail)
             startActivity(intent)
         }
     }
